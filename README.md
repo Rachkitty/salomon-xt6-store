@@ -1,16 +1,33 @@
-# React + Vite
+# Salomon XT-6 Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Plataforma e-commerce especializada en la presentación y comercialización de la línea de calzado técnico **Salomon XT-6**. El proyecto está desarrollado como una aplicación de página única (SPA) modular, responsiva y optimizada para la experiencia de usuario.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Características Técnicas y Funcionalidades
 
-## React Compiler
+* **Filtro y Búsqueda Dinámica**: Sistema de navegación e interactividad en tiempo real para explorar diferentes modelos y colecciones.
+* **Gestión de Variantes y Especificaciones**: Visualización detallada de especificaciones técnicas, variantes de color y galerías fotográficas por modelo.
+* **Control de Inventario y Tallas**: Selector interactivo de tallas adaptado a estándares europeos (EUR), Reino Unido (UK) y Estados Unidos (US).
+* **Carrito de Compras Persistente**: Módulo desplegable (*drawer*) para la gestión de productos en la bolsa de compra, con sincronización de estado local mediante `localStorage`.
+* **Diseño Responsivo**: Interfaz optimizada para dispositivos móviles, tabletas y ordenadores de escritorio.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## Arquitectura y Tecnologías
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* **Frontend Framework**: React.js (entorno de compilación Vite)
+* **Estilos y Layout**: Tailwind CSS
+* **Iconografía**: Lucide React
+* **Lenguaje**: JavaScript (ES6+)
+
+---
+
+## Instrucciones de Instalación y Despliegue Local
+
+Para clonar y ejecutar esta aplicación en un entorno local, siga los siguientes pasos:
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/TU_USUARIO/salomon-xt6-store.git](https://github.com/TU_USUARIO/salomon-xt6-store.git)
+   cd salomon-xt6-store
